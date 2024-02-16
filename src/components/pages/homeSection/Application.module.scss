@@ -1,0 +1,278 @@
+.Application {
+	position: relative;
+	height: 1380px;
+	background: rgb(0, 0, 0);
+	overflow: hidden;
+
+	.nones {
+		@media (max-width: 1450px) {
+			display: none;
+		}
+	}
+}
+
+.email_1 {
+	position: absolute;
+	top: 290px;
+	left: -280px;
+}
+
+.email_2 {
+	position: absolute;
+	top: 125px;
+	right: -100px;
+}
+
+.blacks {
+	position: absolute;
+	left: -520px;
+	top: -70px;
+}
+
+.blacks_2 {
+	position: absolute;
+	height: 1460px;
+	left: -230px;
+	top: -30px;
+	transform: rotate(-6deg);
+}
+
+.right_black_photo {
+	position: absolute;
+	right: -400px;
+	bottom: 20px;
+}
+
+.bottom_black {
+	position: absolute;
+	bottom: 660px;
+	right: -470px;
+}
+
+.container {
+	margin-inline: auto;
+	padding-inline: 20px;
+	width: 100%;
+	max-width: 600px;
+
+	.content {
+		position: relative;
+		z-index: 1000;
+		.main_text {
+			.h11 {
+				padding-top: 168px;
+				h1 {
+					display: flex;
+					justify-content: center;
+					color: rgb(255, 255, 255);
+					font-size: 48px;
+					font-weight: 700;
+					line-height: 100%;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+			}
+
+			.p11 {
+				padding-top: 20px;
+				p {
+					color: rgb(168, 168, 168);
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 19px;
+					letter-spacing: 0%;
+					text-align: center;
+				}
+			}
+		}
+
+		// !
+		.master {
+			.cardinal {
+				padding-top: 93px;
+
+				.three_input {
+					.first_input {
+						input {
+							@media (max-width: 400px) {
+								display: flex;
+								flex-direction: column;
+								flex-wrap: wrap;
+								max-width: 370px;
+								width: 100%;
+							}
+						}
+					}
+				}
+				.three_input {
+					.second_input {
+						input {
+							@media (max-width: 400px) {
+								display: flex;
+								flex-direction: column;
+								flex-wrap: wrap;
+								max-width: 370px;
+								width: 100%;
+							}
+						}
+					}
+				}
+				.text_area {
+					textarea {
+						@media (max-width: 400px) {
+							display: flex;
+							flex-direction: column;
+							flex-wrap: wrap;
+							max-width: 370px;
+							width: 100%;
+						}
+					}
+				}
+				.three_input {
+					.third_input {
+						input {
+							@media (max-width: 400px) {
+								display: flex;
+								flex-direction: column;
+								flex-wrap: wrap;
+								max-width: 370px;
+								width: 100%;
+							}
+						}
+					}
+				}
+
+				p {
+					color: rgb(255, 255, 255);
+					font-size: 14px;
+					font-weight: 600;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+				}
+
+				.button_btn {
+					padding-top: 10px;
+					display: flex;
+					gap: 7px;
+					button {
+						padding: 12px 15px;
+						color: rgb(168, 168, 168);
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 150%;
+						letter-spacing: 0%;
+						text-align: left;
+						cursor: pointer;
+						border: none;
+					}
+
+					.selected {
+						background: green;
+						color: white;
+					}
+
+					.default {
+						background: #6b0000d3;
+						color: black;
+					}
+				}
+
+				.three_input {
+					p {
+						color: rgb(255, 255, 255);
+						font-size: 14px;
+						font-weight: 600;
+						line-height: 150%;
+						letter-spacing: 0%;
+						text-align: left;
+					}
+					input {
+						width: 550px;
+						height: 48px;
+						background: black;
+						color: white;
+						border: none;
+						box-shadow: 0px 0px 0px 0.1px rgb(255, 255, 255);
+						border-radius: 3px;
+					}
+
+					.first_input {
+						padding-top: 43px;
+						p {
+							padding: 10px;
+						}
+					}
+
+					.second_input {
+						padding-top: 30px;
+						p {
+							padding: 10px;
+						}
+					}
+
+					.third_input {
+						padding-top: 30px;
+						p {
+							padding: 10px;
+						}
+					}
+				}
+				.text_area {
+					padding-top: 30px;
+					border: none;
+
+					::placeholder {
+						color: rgb(168, 168, 168);
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 150%;
+						letter-spacing: 0%;
+						text-align: left;
+					}
+
+					p {
+						padding: 10px;
+					}
+
+					textarea {
+						width: 550px;
+						height: 175px;
+						background: black;
+						color: white;
+					}
+				}
+				.last {
+					display: flex;
+					align-items: center;
+					gap: 30px;
+					padding-top: 50px;
+
+					.last_button {
+						button {
+							padding: 15px 25px;
+							border-radius: 30px;
+							background: rgb(255, 255, 255);
+							border: none;
+							cursor: pointer;
+						}
+					}
+
+					.last_p_text {
+						p {
+							font-size: 14px;
+							font-weight: 400;
+							line-height: 17px;
+							letter-spacing: 0%;
+							text-align: left;
+
+							span {
+								color: rgb(168, 168, 168);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

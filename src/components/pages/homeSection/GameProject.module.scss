@@ -1,0 +1,281 @@
+.GameProject {
+	@media (max-width: 400px) {
+		background: black;
+		height: 2500px;
+	}
+	background: black;
+	height: 1580px;
+	position: relative;
+	margin-top: 50px;
+	overflow: hidden;
+
+	.blacks {
+		@media (max-width: 1660px) {
+			display: none;
+		}
+	}
+
+	.parent_2 {
+		@media (max-width: 400px) {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin-top: 400px;
+
+			p {
+				display: none;
+			}
+		}
+	}
+
+	.parent_3 {
+		@media (max-width: 400px) {
+			display: flex;
+			flex-direction: column;
+
+			img {
+				display: none;
+			}
+		}
+	}
+
+	// ! black photos
+	.black_first {
+		position: absolute;
+		bottom: 1110px;
+		right: 1410px;
+	}
+
+	.black_second {
+		position: absolute;
+		bottom: 1080px;
+		right: 1490px;
+	}
+
+	.black_third {
+		position: absolute;
+		bottom: 990px;
+		right: 1630px;
+	}
+
+	.black_fourth {
+		position: absolute;
+		bottom: 850px;
+		right: 1390px;
+	}
+
+	.black_fifth {
+		position: absolute;
+		bottom: -500px;
+		left: -270px;
+		transform: rotate(10deg);
+	}
+
+	// ! Content
+	.content {
+		@media (max-width: 400px) {
+			h2 {
+				display: none;
+			}
+			img {
+				display: none;
+			}
+
+			.subjeckt {
+				width: 200px;
+			}
+
+			.subjeckt {
+				width: 300px;
+			}
+		}
+		padding-block: 150px;
+		display: flex;
+		align-items: center;
+
+		h2 {
+			color: rgb(255, 255, 255);
+			font-weight: 700;
+			font-size: 42px;
+			height: 100%;
+			margin-bottom: 54px;
+		}
+
+		img {
+			position: relative;
+			z-index: 40;
+		}
+		h1 {
+			color: white;
+		}
+		p {
+			color: white;
+			max-width: 570px;
+		}
+		// ! 2
+		.parent_2 {
+			padding-left: 30px;
+			margin-top: 102px;
+
+			.btn_img {
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				margin-bottom: 18px;
+
+				button {
+					box-sizing: border-box;
+					border: 1px solid rgb(255, 63, 98);
+					border-radius: 30px;
+					flex: none;
+					font-weight: 600;
+					font-size: 16px;
+					color: rgb(255, 63, 98);
+					background: transparent;
+					padding: 8px 10px;
+					cursor: pointer;
+				}
+			}
+			.subjeckt {
+				margin-bottom: 18px;
+				max-width: 658px;
+				h1 {
+					color: rgb(255, 255, 255);
+					font-size: 55px;
+					font-weight: 500;
+					line-height: 100%;
+					letter-spacing: 0%;
+					text-align: left;
+					width: 100%;
+				}
+			}
+			p {
+				color: rgb(168, 168, 168);
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 22px;
+				letter-spacing: 0%;
+				text-align: left;
+				width: 640px;
+				margin-bottom: 52px;
+			}
+			button {
+				border-radius: 30px;
+
+				background: rgb(255, 255, 255);
+				color: rgb(0, 0, 0);
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 22px;
+				letter-spacing: 0%;
+				text-align: left;
+				padding: 15px 25px;
+				outline: none;
+				border: none;
+				cursor: pointer;
+			}
+		}
+	}
+
+	// ! 3
+	.parent_3 {
+		display: flex;
+		justify-content: space-between;
+		max-width: 1104px;
+
+		.cards {
+			display: flex;
+			align-items: center;
+
+			img {
+				cursor: pointer;
+			}
+
+			.box {
+				display: flex;
+				flex-direction: column;
+				padding-left: 20px;
+			}
+		}
+
+		p {
+			font-weight: 400;
+			font-size: 16px;
+			color: rgb(168, 168, 168);
+		}
+
+		h2 {
+			margin-top: 10px;
+			font-weight: 700;
+			font-size: 42px;
+			color: rgb(255, 255, 255);
+		}
+	}
+
+	// ! 4
+
+	.parent_4 {
+		@media (max-width: 400px) {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 155px;
+		color: white;
+
+		:hover {
+			background: rgb(255, 63, 98);
+		}
+		.boxy {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			max-width: 318px;
+			max-height: 302px;
+			box-shadow: 0px 0px 1px 0px silver;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+
+			img {
+				margin-top: 32px;
+			}
+
+			.boxy_1 {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				max-width: 318px;
+				max-height: 302px;
+				text-align: start;
+			}
+
+			h3 {
+				height: 30px;
+				padding-top: 25px;
+				margin-top: 25px;
+				font-weight: 700;
+				font-size: 18px;
+			}
+
+			p {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				text-align: start;
+				height: 100vh;
+				margin-top: 20px;
+				color: rgb(168, 168, 168);
+				font-size: 13px;
+				font-weight: 400;
+			}
+		}
+	}
+}

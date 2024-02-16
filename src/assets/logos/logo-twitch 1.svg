@@ -1,0 +1,15 @@
+<svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_339">
+			<rect id="logo-twitch 1" width="26.000000" height="26.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="logo-twitch 1" width="26.000000" height="26.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_339)">
+		<path id="Vector" d="M4.0625 1.625L2.4375 5.6875L2.4375 21.125L7.3125 21.125L7.3125 24.375L10.5625 24.375L13.8125 21.125L17.875 21.125L23.5625 15.4375L23.5625 1.625L4.0625 1.625ZM21.125 14.625L17.875 17.875L13 17.875L9.75 21.125L9.75 17.875L5.6875 17.875L5.6875 4.0625L21.125 4.0625L21.125 14.625Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M16.25 7.26172L18.6875 7.26172L18.6875 13.8125L16.25 13.8125L16.25 7.26172ZM10.5625 7.26172L13 7.26172L13 13.8125L10.5625 13.8125L10.5625 7.26172Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
